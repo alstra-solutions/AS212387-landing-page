@@ -1,0 +1,57 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+main {
+  min-height: calc(100vh - 10rem);
+}
+
+header,
+section {
+  margin-bottom: 2.5rem;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.eyebrow {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+
+dl,
+dd {
+  margin: 0;
+}
+
+dl div {
+  margin-bottom: 0.75rem;
+}
+
+dt {
+  font-weight: 700;
+}
+
+footer {
+  border-top: 1px solid;
+  padding-top: 1rem;
+}
