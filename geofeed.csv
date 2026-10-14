@@ -1,3 +1,20 @@
-116.193.158.0/24,CA,CA-ON,Toronto,M4Y 0B7
-2a0f:b240:a5::/48,CA,CA-ON,Toronto,M4Y 0B7
-2a14:7581:ffe::/48,CA,CA-NU,Arctic Bay,X0A 0A0
+# IPv4 prefix
+116.193.158.0/24,CA,CA-ON,Toronto,
+# IPv4 subnet
+116.193.158.0/28,CA,CA-ON,Toronto,
+116.193.158.16/28,CA,CA-ON,North York,
+116.193.158.32/28,CA,CA-ON,Whitchurch-Stouffville,
+116.193.158.48/28,CA,CA-NU,Arctic Bay,
+116.193.158.192/28,US,US-NY,New York,
+# IPv6 prefix
+2a0f:b240:a5::/48,CA,CA-ON,Toronto,
+# IPv6 subnet
+2a0f:b240:a5:100::/56,CA,CA-ON,Toronto,
+2a0f:b240:a5:200::/56,CA,CA-ON,North York,
+2a0f:b240:a5:c000::/56,CA,CA-ON,Toronto,
+2a0f:b240:a5:c100::/56,CA,CA-ON,North York,
+2a0f:b240:a5:c200::/56,CA,CA-ON,Whitchurch-Stouffville,
+2a0f:b240:a5:c300::/56,CA,CA-NU,Arctic Bay,
+2a0f:b240:a5:c400::/56,US,US-NY,New York,
+# IPv6 prefix
+2a14:7581:ffe::/48,CA,CA-NU,Arctic Bay,
