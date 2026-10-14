@@ -25,8 +25,8 @@ declining AI training use. If that policy changes, update `robots.txt`.
 
 The DNS-AID record `_mcp._agents.alstra.org` is published as an SVCB record
 pointing at `alstra.org` with `alpn="mcp,h2"` and port 443. The MCP Server Card
-gives the HTTP path (`/mcp`). DNSSEC is enabled in Cloudflare but remains
-pending until the DS record is published and visible at the registrar.
+gives the HTTP path (`/mcp`). DNSSEC is active for the zone and the DNS-AID
+answer validates through a public resolver.
 
 Web Bot Auth is not advertised because this site does not send signed bot
 requests. A public signing key without a corresponding signing bot would be
