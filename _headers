@@ -4,3 +4,9 @@
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), geolocation=(), microphone=()
+
+/
+  Link: </.well-known/api-catalog>; rel="api-catalog", </geofeed.csv>; rel="alternate"; type="text/csv"
+
+/.well-known/api-catalog
+  Content-Type: application/linkset+json; charset=utf-8

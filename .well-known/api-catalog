@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://alstra.org/geofeed.csv",
+      "service-desc": [
+        {
+          "href": "https://alstra.org/openapi.json",
+          "type": "application/vnd.oai.openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://alstra.org/geofeed.md",
+          "type": "text/markdown"
+        }
+      ]
+    }
+  ]
+}

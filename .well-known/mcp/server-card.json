@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "org.alstra/geofeed",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alstra.org/mcp",
+      "supportedProtocolVersions": ["2025-06-18"]
+    }
+  ],
+  "serverInfo": {
+    "name": "org.alstra/geofeed",
+    "version": "1.0.0"
+  },
+  "description": "Read only access to the public Alstra RFC 8805 geofeed.",
+  "endpoint": "https://alstra.org/mcp",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://alstra.org/mcp"
+  },
+  "capabilities": {
+    "resources": {}
+  }
+}

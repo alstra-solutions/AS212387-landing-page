@@ -1,0 +1,32 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Alstra Geofeed",
+    "version": "1.0.0",
+    "description": "Public, read only RFC 8805 geolocation data for Alstra network prefixes."
+  },
+  "servers": [
+    { "url": "https://alstra.org" }
+  ],
+  "paths": {
+    "/geofeed.csv": {
+      "get": {
+        "summary": "Download the geofeed",
+        "operationId": "getGeofeed",
+        "responses": {
+          "200": {
+            "description": "RFC 8805 geofeed CSV",
+            "content": {
+              "text/csv": {
+                "schema": {
+                  "type": "string",
+                  "description": "Rows contain ip_prefix,country_code,region_code,city_name,postal_code."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
